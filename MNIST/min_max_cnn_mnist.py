@@ -13,8 +13,8 @@ torch.manual_seed(42)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-train_batch_size = 100
-test_batch_size = 200
+train_batch_size = 64
+test_batch_size = 100
 
 numepochs = 20
 
