@@ -27,18 +27,20 @@ TorchVision
 
 ```
 git clone https://github.com/avinashsai/Min-Max-Convolutional-Neural-Networks.git
-
-cd Models
 ```
 
  To run MINMAX CNN for MNIST:
  
  ```
+ cd MNIST
+ 
  python min_max_cnn_mnist.py
  ```
  
  To run MINMAX CNN for MNIST:
  
  ```
+ cd CIFAR-10
+ 
  python min_max_cnn_cifar.py
  ````
